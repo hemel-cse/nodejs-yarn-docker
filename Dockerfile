@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:8-alpine
 
 MAINTAINER Fahim Shariar <fahim.shoumik@gmail.com>
 
