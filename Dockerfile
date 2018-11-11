@@ -3,7 +3,7 @@ FROM node:8-alpine
 MAINTAINER Fahim Shariar <fahim.shoumik@gmail.com>
 
 RUN apk add --no-cache \
-		ca-certificates
+		ca-certificates rsync
 
 # set up nsswitch.conf for Go's "netgo" implementation (which Docker explicitly uses)
 # - https://github.com/docker/docker-ce/blob/v17.09.0-ce/components/engine/hack/make.sh#L149
